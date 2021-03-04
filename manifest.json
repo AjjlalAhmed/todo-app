@@ -1,5 +1,5 @@
 {
-    "name": "Todo Ap",
+    "name": "Todo App",
     "short_name": "todo-app",
     "start_url": "/index.html",
     "scope": ".",
