@@ -172,10 +172,13 @@ document.addEventListener("keydown", (e) => {
 // Add Event Listener add remove all btn
 removeAllBtn.addEventListener("click", removeAll);
 
-// Creating dragable todos 
-new Sortable (todoList,{
-  animation: 250
-})
+// Creating dragable todos
+new Sortable(todoList, {
+  selectedClass: "todo", // The class applied to the selected items
+  fallbackTolerance: 3, // So that we can select items on mobile
+  animation: 150,
+});
+console.log(1);
 
 if ("serviceWorker" in navigator) {
   // register service worker
