@@ -2,7 +2,7 @@
     "name": "Todo App",
     "short_name": "todo-app",
     "start_url": "index.html",
-    "scope": ".",
+    "scope": "./",
     "icons": [
       {
         "src": "public/assets/images/icon-2.webp",
