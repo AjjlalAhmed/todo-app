@@ -1,0 +1,23 @@
+{
+    "name": "Todo Ap",
+    "short_name": "todo-app",
+    "start_url": "index.html",
+    "scope": ".",
+    "icons": [
+      {
+        "src": "public/assets/images/icon-2.webp",
+        "sizes": "192x192",
+        "type": "image/webp",
+        "purpose": "any"
+      },
+      {
+        "src": "public/assets/images/icon-1.webp",
+        "sizes": "512x512",
+        "type": "image/webp",
+        "purpose": "any"
+      }
+    ],
+    "theme_color": "#1e90ff",
+    "background_color": "#fff",
+    "display": "standalone"
+  }
