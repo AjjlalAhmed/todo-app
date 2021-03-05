@@ -50,7 +50,7 @@ async function editItem(e) {
   const id = Number(e.parentElement.parentElement.id);
   const div = `<div class="edit-form">
     <p>todo value : ${e.parentElement.previousElementSibling.innerHTML}</p>
-    <span>
+    <span class="edit-input">
     <input type="text" placeholder="Edit this todo"/>
     <button onclick="editTodo(this,${id})">
     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
@@ -172,6 +172,7 @@ document.addEventListener("keydown", (e) => {
 // Add Event Listener add remove all btn
 removeAllBtn.addEventListener("click", removeAll);
 
+//  Creating service worker 
 if ("serviceWorker" in navigator) {
   // register service worker
   navigator.serviceWorker.register("service-worker.js");

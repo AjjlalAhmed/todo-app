@@ -128,7 +128,6 @@
         span {
           display: flex;
           justify-content: flex-end;
-          max-width: 30vw;
           button {
             border: 1px solid #fff;
             padding: 10px;
@@ -164,7 +163,6 @@
           text-overflow: ellipsis;
           white-space: nowrap;
           transition: 0.2s ease-in-out;
-          max-width: 70vw;
           // word-break: break-all;
         }
         .add-todos {
